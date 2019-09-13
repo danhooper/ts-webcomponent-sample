@@ -9,10 +9,13 @@ module.exports = {
         "js"
     ],
     transform: {
-        "^.+\\.(ts|tsx)$": "ts-jest"
+        "^.+\\.(js|ts|tsx)$": "ts-jest"
     },
     testMatch: [
         "**/src/**/*.test.(ts|js)"
     ],
-    testEnvironment: "node"
+    testEnvironment: "jsdom",
+    transformIgnorePatterns: [
+      "node_modules/(?!(lit-element|lit-html)/)"
+    ]
 };
