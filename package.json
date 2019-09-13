@@ -1,0 +1,28 @@
+{
+  "name": "ts-webcomponent-sample",
+  "version": "0.1.0",
+  "description": "None",
+  "scripts": {
+    "test": "jest --forceExit --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdstapleton/ts-webcomponent-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdstapleton/ts-webcomponent-sample/issues"
+  },
+  "homepage": "https://github.com/jdstapleton/ts-webcomponent-sample#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}
